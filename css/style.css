@@ -1,0 +1,91 @@
+.cart {
+    color: orange;
+    size: 100px;
+}
+
+.facebook {
+    color: #1877f2;
+}
+
+.line {
+    color: #00c300;
+}
+
+.hamburger {
+    background-color: #272727;
+    color: white;
+    margin-right: 40%;
+}
+
+.red_box {
+    background: #750000;
+    width: 15%;
+    max-width: 100px;
+    height: 20%;
+    position: absolute;
+
+}
+
+.body_background {
+    background-color: #272727;
+}
+
+.heroheader {
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    padding-bottom: 245px;
+}
+
+.hero-margin {
+    margin-top: 173px;
+}
+
+.banner_background {
+    position: relative;
+    overflow: hidden;
+}
+
+.banner_background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/banner1test.jpg');
+    background-size: cover;
+    z-index: -1;
+    /* 將偽元素放到背景 */
+    clip-path: polygon(40% 0, 100% 0%, 100% 100%, 40% 100%);
+}
+
+.font_colorw {
+    color: white;
+}
+
+
+
+/* .flex_gap_30px {
+    gap: 30px;
+}
+
+.magrin_left_200 {
+    margin-left: 200px;
+}
+
+.magrin_right_200 {
+    margin-right: 200px;
+} */
+
+
+/* -webkit-clip-path: polygon(0 0, 92% 0, 42% 100%, 0% 100%);
+clip-path: polygon(0 0, 92% 0, 42% 100%, 0% 100%); */
+
+.box {
+    width: 300px;
+    width: 300px;
+    overflow: hidden;
+    background: linear-gradient(45deg, orangered, orange 50%, transparent 50%, transparent 100%);
+    transform: rotate(90deg);
+}
