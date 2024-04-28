@@ -1,3 +1,4 @@
+/* icon顏色 */
 .cart {
     color: orange;
     size: 100px;
@@ -11,14 +12,14 @@
     color: #00c300;
 }
 
+/* icon顏色 */
 .hamburger {
-    background-color: #272727;
-    color: white;
+    background-color: #FF8040;
     margin-right: 40%;
 }
 
 .red_box {
-    background: #750000;
+    background: #FFDC35;
     width: 15%;
     max-width: 100px;
     height: 20%;
@@ -33,7 +34,6 @@
 .heroheader {
     background-size: cover;
     background-repeat: no-repeat;
-    z-index: -1;
     padding-bottom: 245px;
 }
 
@@ -53,39 +53,27 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../img/banner1test.jpg');
+    background-image: url('../img/banner_wine.jpg');
     background-size: cover;
     z-index: -1;
-    /* 將偽元素放到背景 */
+    /* 將偽元素放到背景  */
     clip-path: polygon(40% 0, 100% 0%, 100% 100%, 40% 100%);
 }
 
-.font_colorw {
-    color: white;
+.mb-150 {
+    margin-bottom: 150px;
 }
 
-
-
-/* .flex_gap_30px {
-    gap: 30px;
+.ps-100 {
+    padding-left: 100px;
 }
 
-.magrin_left_200 {
-    margin-left: 200px;
+.py-100 {
+    padding: 100px 0;
 }
 
-.magrin_right_200 {
-    margin-right: 200px;
-} */
-
-
-/* -webkit-clip-path: polygon(0 0, 92% 0, 42% 100%, 0% 100%);
-clip-path: polygon(0 0, 92% 0, 42% 100%, 0% 100%); */
-
-.box {
-    width: 300px;
-    width: 300px;
-    overflow: hidden;
-    background: linear-gradient(45deg, orangered, orange 50%, transparent 50%, transparent 100%);
-    transform: rotate(90deg);
+.bg-wood {
+    background: url('../img/background.jpg') no-repeat;
+    object-fit: contain;
+    height: 100%;
 }
