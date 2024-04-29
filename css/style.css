@@ -15,7 +15,6 @@
 /* icon顏色 */
 .hamburger {
     background-color: #FF8040;
-    margin-right: 40%;
 }
 
 .red_box {
@@ -76,4 +75,14 @@
     background: url('../img/background.jpg') no-repeat;
     object-fit: contain;
     height: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .banner_background::before {
+        clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    img {
+        overflow: hidden;
+    }
 }
