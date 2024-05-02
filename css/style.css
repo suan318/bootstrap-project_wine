@@ -160,6 +160,14 @@
     margin: 0 auto;
 }
 
+.brown {
+    color: brown;
+}
+
+.bg_brown {
+    background-color: brown;
+}
+
 /* 螢幕小於768 */
 @media screen and (max-width: 768px) {
     .bread {
